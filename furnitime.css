@@ -1,0 +1,436 @@
+/* *********************HEADER CSS STARTS  */
+body{
+    width: 90%;
+    margin: auto;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.header {
+    background-color: white;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.header-left {
+    font-size: 40px;
+    color: black;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.blog-link {
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    
+
+}
+
+.get-it-now-button {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.discover-more-button {
+    background-color: white;
+    color: orange;
+    border: 2px solid orange;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.get-it-now-button:hover {
+    background-color: #ff4500;
+}
+
+/* HEADER CSS STOPS */
+/* Section 1 CSS STARTS */
+#section1 {
+
+    position: relative;
+    background-image: url('hero-image.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: red;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.responsive-container {
+    width: 100%;
+    padding-top: 60%;
+    /* Adjust this value to control the aspect ratio (height/width) */
+    background-image: url('hero-image.png');
+    /* Replace 'your-image.jpg' with your image file path */
+    background-size: cover;
+    background-position: center;
+    padding-top: -40px;
+}
+
+.container-fluid {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+}
+
+.mainheading {
+    font-size: 3vw;
+    font-family: sans-serif;
+}
+
+.maintext {
+    font-size: 1vw;
+}
+
+.section2 {
+    text-align: center;
+    padding: 20px;
+}
+
+.section2-text {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-size: 2.5vw;
+    
+}
+
+.logo-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: auto;
+    margin: 10px;
+}
+
+#oneone {
+    height: 400px;
+}
+
+.image1 {
+    background-size: cover;
+    background-position: center;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.section3 {
+    display: flex;
+}
+
+.part1 {
+    width: 50%;
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.part2 {
+
+    width: 50%;
+    padding: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section4 {
+    display: flex;
+}
+
+p.text-x,p.text-y,p.text-z{
+    font-size: large;
+}
+
+.part3 {
+    width: 50%;
+    padding: 300px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.part4 {
+
+    width: 50%;
+    background-image: url('image2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.section5 {
+    display: flex;
+}
+
+.part5 {
+    width: 50%;
+    background-image: url('image3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.part6 {
+
+    width: 50%;
+    padding: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+/***************************************************************************************Section 6 CSS************************************************************/
+.section6 {
+    display: flex;
+    
+}
+
+
+.browse-click-buy {
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    display: block;
+    padding: 100px;
+    margin-right: 0px;
+    padding-left: 45px;
+
+}
+
+.browse {
+    margin: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.click {
+    margin: 40px;
+}
+
+.buy {
+    margin: 40px;
+}
+
+.sofaimage {
+    width: 50%;
+    padding-left: 30px;
+    background-image: url('sofa.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 700px;
+}
+
+/**************************************************SECTION 7**********************************/
+.section7 {
+    width: 100%;
+    height: 500px;
+    display: flex;
+}
+
+.darkorange {
+    background-color: rgb(252, 192, 63);
+    width: 50%;
+    border-top-right-radius: 90%;
+}
+.lightorange{
+    width: 50%;
+    background-color: #e4d5beec;
+    border-top-left-radius: 90%;
+}
+.box0{
+    
+    height: 200px;
+    width: 70%;
+    z-index: -1;
+    background-color: rgb(226, 226, 226);
+   border-radius: 40px;
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.section8{
+    display: flex;
+    padding: 20px;
+    margin: 50px;
+    height: auto;
+    
+}
+.card1{
+    
+    height: 950px;
+    width: 33.33%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+    
+}
+.card2{
+    
+    
+    height: 950px;
+    width: 33.33%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+.card3{
+    
+    height: 950px;
+    width: 33.33%;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#card1,#card2,#card3{
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+}
+
+.cardtext
+{
+    padding: 70px;
+    font-size: large;
+    
+}
+.hightext{
+    background-color: #e0b86c;
+    border-radius: 70px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+#footer{
+    height: 150px;
+    background-color: black;
+}
+.furnitime-text{
+    padding: 10px;
+}
+#section9{
+    height: px;
+}
+
+#first-half{
+    width: 70%;
+    height: 600px;
+    padding-top: 30px;
+    
+}
+#second-half{
+
+    background-image: url('footerimage');
+    
+    
+    
+}
+#footer-image{
+    padding: 100px;
+    height: 500px;
+
+   
+}
+#text404{
+    color: black; 
+    justify-content: center;
+    align-items: center;
+    padding-top: 250px;
+
+}
+
+.responsive {
+width: 100%;
+height: auto;
+}
+
+.get-it-now-button-last{
+    background-color: #ff5722;
+    color: white;
+    border: none;
+    padding: 20px 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+/* Footer Styles */
+.footer {
+    background-color: #ff4500;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    opacity: 0.9;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-text {
+    font-size: 49px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a {
+    text-decoration: none;
+    color: white;
+    margin: 0 10px;
+    font-size: 18px;
+}
+
